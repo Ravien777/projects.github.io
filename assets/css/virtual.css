@@ -169,6 +169,10 @@ a:active {
   border-radius: 40px !important;
 }
 
+#hero-name {
+  text-align: center;
+}
+
 /* Floating Action Button */
 .btn-fab {
   display: inline-block;
