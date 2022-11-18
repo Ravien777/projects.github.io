@@ -329,6 +329,12 @@ span.blinker {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .row.py-3 {
+    gap: 25px;
+  }
+}
+
 /* 
     3. Color Scheme
 */
