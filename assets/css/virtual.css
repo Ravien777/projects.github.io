@@ -334,6 +334,10 @@ span.blinker {
   .row.py-3 {
     gap: 25px;
   }
+  .color-item {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 /* 
