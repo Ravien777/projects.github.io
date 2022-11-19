@@ -612,7 +612,11 @@
               </div>
             </div>
             <div class="col-lg-5">
-              <form class="vg-contact-form">
+              <form
+                class="vg-contact-form"
+                method="post"
+                action="https://forms.un-static.com/forms/b92872d1b36fced5454e2ef645612525c9f99c71"
+              >
                 <div class="form-row">
                   <div class="col-12 wow fadeInUp">
                     <input
@@ -620,14 +624,17 @@
                       type="text"
                       name="Name"
                       placeholder="Your Name"
+                      minlength="2"
+                      required
                     />
                   </div>
                   <div class="col-6 wow fadeInUp">
                     <input
                       class="form-control"
-                      type="text"
+                      type="email"
                       name="Email"
                       placeholder="Email Address"
+                      required
                     />
                   </div>
                   <div class="col-6 wow fadeInUp">
@@ -636,6 +643,8 @@
                       type="text"
                       name="Subject"
                       placeholder="Subject"
+                      minlength="2"
+                      required
                     />
                   </div>
                   <div class="col-12 wow fadeInUp">
@@ -644,6 +653,7 @@
                       name="Message"
                       rows="6"
                       placeholder="Enter message here.."
+                      required
                     ></textarea>
                   </div>
                   <button
