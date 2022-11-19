@@ -1,0 +1,22 @@
+body {
+    background-color: #e1e3ee;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container div {
+  text-align: center;
+  font-size: 2rem;
+  color: #2960f7;
+}
+
+.ti-check-box {
+    color: greenyellow;
+    font-size: 3rem;
+}
