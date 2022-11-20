@@ -157,7 +157,7 @@ $(document).ready(function () {
   });
 
   var $grid = $(".gridder").isotope({
-    itemSelector: ".grid-item",
+    itemSelector: ".grid-items",
     percentPosition: true,
   });
 
