@@ -1,11 +1,15 @@
 const h1Txt = "Hi!";
 const h2Txt = "My name is Ravien Sewpal";
 const pTxt = "Web Developer";
+const loaderContainer = document.querySelector(".loader-container");
 let i = 0;
 let j = 0;
 let p = 0;
 
 window.addEventListener("load", function () {
+  loaderContainer.style.display = "none"; // Hide loader once page has loaded
+  loaderContainer.parentElement.removeChild(loaderContainer);
+
   //executeAsynchronously([typeWriter, typeWriter2, typeWriter3], 300);
   executeAsynchronously(typeWriter, 100);
   executeAsynchronously(typeWriter2, 1000);
@@ -275,4 +279,3 @@ window.onscroll = () => {
     }
   });
 };
-
