@@ -1200,6 +1200,26 @@ span.blinker {
 
 /* Theme color style */
 
+.theme-blue .fg-theme a {
+  color: #2960f7 !important;
+}
+
+.theme-red .fg-theme a {
+  color: #ef3724 !important;
+}
+
+.theme-green .fg-theme a {
+  color: #8cc63f !important;
+}
+
+.theme-orange .fg-theme a {
+  color: #fd7e14 !important;
+}
+
+.theme-purple .fg-theme a {
+  color: #6f42c1 !important;
+}
+
 /* Theme red */
 .theme-blue .bg-theme {
   background-color: #2960f7 !important;
